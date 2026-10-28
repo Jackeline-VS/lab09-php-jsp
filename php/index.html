@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lab09 - Formulario PHP</title>
+  </head>
+  <body>
+    <h1>Registro de estudiante (PHP)</h1>
+    <form action="procesar.php" method="POST">
+      <label>Nombre: <input type="text" name="nombre" required /></label
+      ><br /><br />
+      <label>Correo: <input type="email" name="correo" required /></label
+      ><br /><br />
+      <label
+        >Curso:
+        <select name="curso">
+          <option>Desarrollo Web</option>
+          <option>Base de Datos</option>
+          <option>Inteligencia de Negocios</option>
+        </select> </label
+      ><br /><br />
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
